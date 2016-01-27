@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/MyJs.js"></script>
+<script src="~/Scripts/layer/layer.js"></script>
+<script type="text/javascript">
+    var Js = {
+        Login: function () {
+            var user = $(".user").val();
+            var pwd = $(".pwd").val();
+            if ($(".user").Isuser()) {
+
+                $.ajax({
+                    url: "/home/Login",
+                    type: "POST",
+                    cache: false,
+                    data: { "name": user, "pwd": pwd },
+                    success: function (data) {
+                        if (data.Isok) {
+                            layer.alert('登录成功', {
+                                icon: 1,
+                                skin: 'layer-ext-moon'
+                            });
+                            window.location.href = "/home/test";
+                        }
+                        else {
+                            layer.alert('登录失败', {
+                                icon: 2,
+                                skin: 'layer-ext-moon'
+                            });
+                        }
+                    }
+                });
+            }
+        }
+    }
+
+</script>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div> 
+        用户名： <input type="text"    class="user" /> <br />
+        密  码：<input type="password" class="pwd" /><br />
+        <input  type="button"  onclick="Js.Login()" value="登录"/>
+    </div>
+</body>
+</html>
