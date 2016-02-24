@@ -73,3 +73,6 @@ F:\过滤器\MyFilter\MyFilter\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAcco
 F:\过滤器\MyFilter\MyFilter\obj\Debug\MyFilter.dll
 F:\过滤器\MyFilter\MyFilter\obj\Debug\MyFilter.pdb
 F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

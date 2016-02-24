@@ -10,4 +10,10 @@
         }
         return true;
     }
+
+    $.extend({
+        Isok: function () {
+            alert("这是个扩展方法了");
+        }
+    });
 })

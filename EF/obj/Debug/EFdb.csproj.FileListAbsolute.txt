@@ -1,0 +1,12 @@
+F:\过滤器\MyFilter\EF\bin\Debug\EF.dll.config
+F:\过滤器\MyFilter\EF\bin\Debug\EF.dll
+F:\过滤器\MyFilter\EF\bin\Debug\EF.pdb
+F:\过滤器\MyFilter\EF\bin\Debug\EntityFramework.dll
+F:\过滤器\MyFilter\EF\bin\Debug\EntityFramework.SqlServer.dll
+F:\过滤器\MyFilter\EF\bin\Debug\EntityFramework.xml
+F:\过滤器\MyFilter\EF\bin\Debug\EntityFramework.SqlServer.xml
+F:\过滤器\MyFilter\EF\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\过滤器\MyFilter\EF\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\过滤器\MyFilter\EF\obj\Debug\EFdb.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\EF\obj\Debug\EF.dll
+F:\过滤器\MyFilter\EF\obj\Debug\EF.pdb

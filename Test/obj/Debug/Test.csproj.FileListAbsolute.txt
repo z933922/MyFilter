@@ -1,0 +1,6 @@
+F:\过滤器\MyFilter\Test\bin\Debug\Test.exe.config
+F:\过滤器\MyFilter\Test\bin\Debug\Test.exe
+F:\过滤器\MyFilter\Test\bin\Debug\Test.pdb
+F:\过滤器\MyFilter\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\Test\obj\Debug\Test.exe
+F:\过滤器\MyFilter\Test\obj\Debug\Test.pdb
