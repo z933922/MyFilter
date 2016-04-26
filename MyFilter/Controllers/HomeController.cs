@@ -5,6 +5,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using EFcode;
+using mogodb;
 
 namespace MyFilter.Controllers
 {
@@ -22,9 +24,23 @@ namespace MyFilter.Controllers
             return View();
         }
 
+
+         public   ActionResult   Mongodb()
+       {
+         mongo.GetInstance().GetServer();
+           return View();
+       }
+
         [HttpPost]
         public ActionResult Login(string pwd,string name)
         {
+
+            List<person> list = new List<person>(); 
+
+            List<Iperson> Iperson1 = new List<MyFilter.Iperson>();
+
+           
+
             Result<int> result = new Result<int>();
             result.Isok = 0;
             if (pwd == "123456" && name == "123456")
@@ -32,6 +48,27 @@ namespace MyFilter.Controllers
                 result.Isok = 1;
                 
              //   FormsAuthentication.SetAuthCookie(customer.Id.ToString(), true);
+                Blog model = new Blog();
+                model.name = "测试名称";
+                model.title = "测试标题";
+                using ( BlogEnties be = new BlogEnties())
+                {
+                    if (ModelState.IsValid)
+            {
+                try
+                {
+                    be.blosgs.Add(model);
+                    be.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    
+                    throw;
+                }
+                
+              
+            }
+                }
                 MyUser myuser = new MyUser() { name="123456",titel="123456"};
                string cookiename=  User.Identity.Name;
                 Session["name"] = myuser;
@@ -59,6 +96,12 @@ namespace MyFilter.Controllers
             return Redirect("/home/test");
         }
 
+
+        //  修改图片
+        public ActionResult imge()
+        {
+            return View();
+        }
 
     }
 }

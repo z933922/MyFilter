@@ -1,0 +1,16 @@
+F:\过滤器\MyFilter\EFcode\bin\Debug\EFcode.dll.config
+F:\过滤器\MyFilter\EFcode\bin\Debug\EFcode.dll
+F:\过滤器\MyFilter\EFcode\bin\Debug\EFcode.pdb
+F:\过滤器\MyFilter\EFcode\bin\Debug\EntityFramework.dll
+F:\过滤器\MyFilter\EFcode\bin\Debug\EntityFramework.SqlServer.dll
+F:\过滤器\MyFilter\EFcode\bin\Debug\EntityFramework.xml
+F:\过滤器\MyFilter\EFcode\bin\Debug\EntityFramework.SqlServer.xml
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.dll
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.pdb
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.Migrations.InitialCreate.resources
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.csproj.GenerateResource.Cache
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.Migrations.xx.resources
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.Migrations._20160419.resources
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.Migrations._201604200952.resources
+F:\过滤器\MyFilter\EFcode\obj\Debug\EFcode.Migrations._201604200978.resources

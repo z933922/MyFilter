@@ -1,0 +1,11 @@
+F:\过滤器\MyFilter\mogodb\bin\Debug\mogodb.dll
+F:\过滤器\MyFilter\mogodb\bin\Debug\mogodb.pdb
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Bson.dll
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Driver.dll
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Bson.pdb
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Bson.xml
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Driver.pdb
+F:\过滤器\MyFilter\mogodb\bin\Debug\MongoDB.Driver.xml
+F:\过滤器\MyFilter\mogodb\obj\Debug\mogodb.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\mogodb\obj\Debug\mogodb.dll
+F:\过滤器\MyFilter\mogodb\obj\Debug\mogodb.pdb

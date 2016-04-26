@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JJ_DBModelStoreContainer" CdmEntityContainer="myentity">
+    <EntitySetMapping Name="Skill">
+      <EntityTypeMapping TypeName="JJ_DBModel.Skill">
+        <MappingFragment StoreEntitySet="Skill">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="SkillName" ColumnName="SkillName" />
+          <ScalarProperty Name="CategorySysNo" ColumnName="CategorySysNo" />
+          <ScalarProperty Name="SkillIntroduction" ColumnName="SkillIntroduction" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SMS_History">
+      <EntityTypeMapping TypeName="JJ_DBModel.SMS_History">
+        <MappingFragment StoreEntitySet="SMS_History">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="CustomerSysNo" ColumnName="CustomerSysNo" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="SMSContent" ColumnName="SMSContent" />
+          <ScalarProperty Name="SMSKey" ColumnName="SMSKey" />
+          <ScalarProperty Name="SendTime" ColumnName="SendTime" />
+          <ScalarProperty Name="SMSTypeSysNo" ColumnName="SMSTypeSysNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SMS_Model">
+      <EntityTypeMapping TypeName="JJ_DBModel.SMS_Model">
+        <MappingFragment StoreEntitySet="SMS_Model">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="SMSTypeName" ColumnName="SMSTypeName" />
+          <ScalarProperty Name="SMSModelContent" ColumnName="SMSModelContent" />
+          <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Work_Invited">
+      <EntityTypeMapping TypeName="JJ_DBModel.Work_Invited">
+        <MappingFragment StoreEntitySet="Work_Invited">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="WorkMasterSysNo" ColumnName="WorkMasterSysNo" />
+          <ScalarProperty Name="InviteCustomerSysNo" ColumnName="InviteCustomerSysNo" />
+          <ScalarProperty Name="InvitedCustomerSysNo" ColumnName="InvitedCustomerSysNo" />
+          <ScalarProperty Name="InviteTime" ColumnName="InviteTime" />
+          <ScalarProperty Name="InviteResult" ColumnName="InviteResult" />
+          <ScalarProperty Name="InvitedUserType" ColumnName="InvitedUserType" />
+          <ScalarProperty Name="InviteType" ColumnName="InviteType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Work_Master">
+      <EntityTypeMapping TypeName="JJ_DBModel.Work_Master">
+        <MappingFragment StoreEntitySet="Work_Master">
+          <ScalarProperty Name="SysNo" ColumnName="SysNo" />
+          <ScalarProperty Name="WorkID" ColumnName="WorkID" />
+          <ScalarProperty Name="CategorySysNo" ColumnName="CategorySysNo" />
+          <ScalarProperty Name="IsStandard" ColumnName="IsStandard" />
+          <ScalarProperty Name="WorkName" ColumnName="WorkName" />
+          <ScalarProperty Name="Introduction" ColumnName="Introduction" />
+          <ScalarProperty Name="SkillSysNos" ColumnName="SkillSysNos" />
+          <ScalarProperty Name="RequestSysNos" ColumnName="RequestSysNos" />
+          <ScalarProperty Name="BudgetAmt" ColumnName="BudgetAmt" />
+          <ScalarProperty Name="FeeAmt" ColumnName="FeeAmt" />
+          <ScalarProperty Name="GradeSysNo" ColumnName="GradeSysNo" />
+          <ScalarProperty Name="TimeSpanSysNo" ColumnName="TimeSpanSysNo" />
+          <ScalarProperty Name="WorkVisibleSysNo" ColumnName="WorkVisibleSysNo" />
+          <ScalarProperty Name="AimCustomerTypeSysNo" ColumnName="AimCustomerTypeSysNo" />
+          <ScalarProperty Name="WorkFileSysNos" ColumnName="WorkFileSysNos" />
+          <ScalarProperty Name="ScoreLevelSysNo" ColumnName="ScoreLevelSysNo" />
+          <ScalarProperty Name="AimLocationSysNo" ColumnName="AimLocationSysNo" />
+          <ScalarProperty Name="OtherRequests" ColumnName="OtherRequests" />
+          <ScalarProperty Name="DevelopPlatformSysNos" ColumnName="DevelopPlatformSysNos" />
+          <ScalarProperty Name="ProjectStatusSysNo" ColumnName="ProjectStatusSysNo" />
+          <ScalarProperty Name="ProjectKindSysNo" ColumnName="ProjectKindSysNo" />
+          <ScalarProperty Name="ProjectTypeSysNos" ColumnName="ProjectTypeSysNos" />
+          <ScalarProperty Name="DevelopRoleSysNos" ColumnName="DevelopRoleSysNos" />
+          <ScalarProperty Name="IsOnlineDevelopment" ColumnName="IsOnlineDevelopment" />
+          <ScalarProperty Name="SocialAPISysNos" ColumnName="SocialAPISysNos" />
+          <ScalarProperty Name="CreateCustomerSysNo" ColumnName="CreateCustomerSysNo" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Schedule" ColumnName="Schedule" />
+          <ScalarProperty Name="WorkUserSysNo" ColumnName="WorkUserSysNo" />
+          <ScalarProperty Name="ProjectTime" ColumnName="ProjectTime" />
+          <ScalarProperty Name="PayStatus" ColumnName="PayStatus" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="WorkStep" ColumnName="WorkStep" />
+          <ScalarProperty Name="FlowSysNo" ColumnName="FlowSysNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -23,6 +23,7 @@
                     cache: false,
                     data: { "name": user, "pwd": pwd },
                     success: function (data) {
+                        $.Isok();
                         if (data.Isok) {
                             layer.alert('登录成功', {
                                 icon: 1,

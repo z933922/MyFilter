@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JJ_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Skill">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SkillName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategorySysNo" Type="Int32" Nullable="false" />
+    <Property Name="SkillIntroduction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SortNo" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SMS_History">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerSysNo" Type="Int32" />
+    <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SMSContent" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SMSKey" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SendTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SMSTypeSysNo" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SMS_Model">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SMSTypeName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SMSModelContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SortNo" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Work_Invited">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkMasterSysNo" Type="Int32" Nullable="false" />
+    <Property Name="InviteCustomerSysNo" Type="Int32" Nullable="false" />
+    <Property Name="InvitedCustomerSysNo" Type="Int32" Nullable="false" />
+    <Property Name="InviteTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="InviteResult" Type="Int32" Nullable="false" />
+    <Property Name="InvitedUserType" Type="Int32" />
+    <Property Name="InviteType" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Work_Master">
+    <Key>
+      <PropertyRef Name="SysNo" />
+    </Key>
+    <Property Name="SysNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategorySysNo" Type="Int32" Nullable="false" />
+    <Property Name="IsStandard" Type="Boolean" Nullable="false" />
+    <Property Name="WorkName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Introduction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SkillSysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="RequestSysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BudgetAmt" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="FeeAmt" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="GradeSysNo" Type="Int32" Nullable="false" />
+    <Property Name="TimeSpanSysNo" Type="Int32" Nullable="false" />
+    <Property Name="WorkVisibleSysNo" Type="Int32" Nullable="false" />
+    <Property Name="AimCustomerTypeSysNo" Type="Int32" Nullable="false" />
+    <Property Name="WorkFileSysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ScoreLevelSysNo" Type="Int32" />
+    <Property Name="AimLocationSysNo" Type="Int32" />
+    <Property Name="OtherRequests" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DevelopPlatformSysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectStatusSysNo" Type="Int32" />
+    <Property Name="ProjectKindSysNo" Type="Int32" />
+    <Property Name="ProjectTypeSysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DevelopRoleSysNos" Type="Int32" />
+    <Property Name="IsOnlineDevelopment" Type="Boolean" />
+    <Property Name="SocialAPISysNos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreateCustomerSysNo" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Note" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Schedule" Type="Int32" />
+    <Property Name="WorkUserSysNo" Type="Int32" />
+    <Property Name="ProjectTime" Type="DateTime" Precision="0" />
+    <Property Name="PayStatus" Type="Int32" Nullable="false" />
+    <Property Name="EndTime" Type="DateTime" Precision="3" />
+    <Property Name="WorkStep" Type="Int32" Nullable="false" />
+    <Property Name="FlowSysNo" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="myentity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Skill" EntityType="Self.Skill" />
+    <EntitySet Name="SMS_History" EntityType="Self.SMS_History" />
+    <EntitySet Name="SMS_Model" EntityType="Self.SMS_Model" />
+    <EntitySet Name="Work_Invited" EntityType="Self.Work_Invited" />
+    <EntitySet Name="Work_Master" EntityType="Self.Work_Master" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+F:\过滤器\MyFilter\myconsole\bin\Debug\myconsole.exe.config
+F:\过滤器\MyFilter\myconsole\obj\Debug\myconsole.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\myconsole\bin\Debug\myconsole.exe
+F:\过滤器\MyFilter\myconsole\bin\Debug\myconsole.pdb
+F:\过滤器\MyFilter\myconsole\obj\Debug\myconsole.exe
+F:\过滤器\MyFilter\myconsole\obj\Debug\myconsole.pdb
+F:\过滤器\MyFilter\myconsole\bin\Debug\Iesi.Collections.dll
+F:\过滤器\MyFilter\myconsole\bin\Debug\NHibernate.dll
+F:\过滤器\MyFilter\myconsole\bin\Debug\Iesi.Collections.xml
+F:\过滤器\MyFilter\myconsole\bin\Debug\NHibernate.xml

@@ -76,3 +76,17 @@ F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.Core.dll
 F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
 F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.Core.xml
 F:\过滤器\MyFilter\MyFilter\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\过滤器\MyFilter\MyFilter\bin\EFcode.dll
+F:\过滤器\MyFilter\MyFilter\bin\EFcode.pdb
+F:\过滤器\MyFilter\MyFilter\bin\Iesi.Collections.dll
+F:\过滤器\MyFilter\MyFilter\bin\NHibernate.dll
+F:\过滤器\MyFilter\MyFilter\bin\Iesi.Collections.xml
+F:\过滤器\MyFilter\MyFilter\bin\NHibernate.xml
+F:\过滤器\MyFilter\MyFilter\bin\mogodb.dll
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Driver.dll
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Bson.dll
+F:\过滤器\MyFilter\MyFilter\bin\mogodb.pdb
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Driver.pdb
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Driver.xml
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Bson.pdb
+F:\过滤器\MyFilter\MyFilter\bin\MongoDB.Bson.xml
