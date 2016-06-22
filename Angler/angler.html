@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    
+    <script src="scripts/angular-1.0.1.min.js"></script>
+   <style>
+       input.ng-invalid {
+        background-color:aqua;
+       }
+
+   </style>
+    <script>
+       
+
+       
+    </script>
+</head>
+<body>
+    <form name="myform" novalidate>
+        <div ng-app="myapp" ng-controller="mycon" data-ng-init="person={name:'你大爷的',age:10};names=['zz','zz1','zz2'];count=0;" >
+            <input ng-model="firstname" />
+            <input ng-model="lastname" />
+
+            <label>{{(firstname|uppercase)+"-"+lastname}}</label>
+
+            <br />
+             大写的：
+            <input ng-bind="firstname" />
+
+            <input data-ng-model="person.name" />
+            <input data-ng-model="person.age" />
+            <br />
+            <ul>
+                <li data-ng-repeat="name in names"><label data-ng-bind="name"></label></li>
+
+            </ul>
+            <input type="email" name="myaddress" ng-model="test"  required />
+            <span  ng-show="myform.myaddress.$valid">不是一个合法的邮箱地址</span>
+            <br />
+            状态：
+            <p>Valid: {{myform.myaddress.$valid}} (如果输入的值是合法的则为 true)。</p>
+            <p>Dirty: {{myform.myaddress.$dirty}} (如果值改变则为 true)。</p>
+            <p>Touched: {{myform.myaddress.$touched}} (如果通过触屏点击则为 true)。</p>
+            <select>
+                <option ng-repeat="x in namedds" value="{{x.name}}">{{x.name}}</option>
+            </select>
+            <select ng-model="selectedSite" ng-options="x.name for x in  namedds">
+             
+            </select>
+            <select ng-model="dd" ng-options="y for (x,y) in  sites"></select>
+
+
+            <button data-ng-click="count=count+1" >{{count}}</button>
+           
+             <input data-ng-model="user.fistname" />
+            <input  ng-model="user.lastname"/>
+            master;{{master}}
+            usr:{{user}}
+           
+            <a href="javascript:void(0);" ng-click="reset();">恢复</a>
+
+           <input data-ng-model="upermodel" />
+       
+           大写的：<input ng-readonly data-ng-model="upermodel" />
+
+            <div data-ng-include="'Test.html'"></div>
+
+            <!--<textarea data-ng-model="richmodel"></textarea>-->
+            <input data-ng-model="richmodel" />
+              字数
+        <input type="text" data-ng-model="richmodel.length" />
+
+        </div>
+
+
+
+        <!--<div data-ng-app="myapp2" data-ng-controller="mycon2">-->
+           
+
+        <!--</div>-->
+    </form>
+    <script type="text/javascript">
+      
+        var app = angular.module('myapp', []);
+        app.directive('runoobDirective', function () {
+            return
+            {
+                template: "我在指令构造器中创建!"
+            };
+        })
+        app.controller('mycon', function ($scope) {
+            $scope.firstname = '你大爷的全是傻逼';
+            $scope.lastname = ' 傻逼2';
+            $scope.master = { firstName: "John", lastName: "Doe" };
+            $scope.upermodel = "aaa";
+            //$scope.upper = angular.uppercase($scope.upermodel);
+            $scope.reset = function () {
+                $scope.user = angular.copy($scope.master);
+            };
+            $scope.richmodel="ddd";
+            $scope.zishu = $scope.richmodel.length;
+            $scope.sites = {
+                site01: "Google",
+                site02: "Runoob",
+                site03: "Taobao"
+            };
+            $scope.namedds = 
+                [
+                {
+                    "name":"zz",
+                    "age":10
+                },
+                {
+                    "name":"vv",
+                    "age":10
+                },
+                {
+                    "name":"cc",
+                    "age":10
+                }
+                ];
+            
+        });
+
+        //var app2 = angular.module('myapp2', []);
+        //app2.controller('mycon2', function ($scope) {
+        
+        //    $scope.selmodel = '第一个选择的数据';
+        //});
+
+    </script>
+</body>
+</html>

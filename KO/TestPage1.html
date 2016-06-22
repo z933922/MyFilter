@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/knockout-3.4.0.js"></script>
+       
+
+   
+</head>
+<body>
+    <h2>Index</h2>
+    <div id="div1">
+        <input data-bind="value:ttname" />
+        <input data-bind="value:ttname2" />
+    </div>
+    <script>
+
+  //  var viewmodel = { 'personname': 'zhuanghuabo', 'age': '18' };
+
+  //ko.applyBindings(viewmodel);
+
+
+  var mymodel = {
+      ttname: ko.observable("你大爷的的"),
+        ttname2: ko.observable("是你马屁的")
+     };
+   ko.applyBindings(mymodel,document.getElementById("div1"));
+
+
+   var arrylist = ko.observableArray();
+
+   ko.computed(function () { }, this);
+
+
+
+
+    </script>
+</body>
+</html>

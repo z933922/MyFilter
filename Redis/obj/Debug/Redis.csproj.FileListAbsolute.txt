@@ -1,0 +1,4 @@
+F:\过滤器\MyFilter\Redis\bin\Debug\Redis.dll
+F:\过滤器\MyFilter\Redis\bin\Debug\Redis.pdb
+F:\过滤器\MyFilter\Redis\obj\Debug\Redis.dll
+F:\过滤器\MyFilter\Redis\obj\Debug\Redis.pdb

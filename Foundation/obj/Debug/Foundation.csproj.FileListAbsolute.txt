@@ -1,0 +1,10 @@
+F:\过滤器\MyFilter\Foundation\obj\Debug\Foundation.pdb
+F:\过滤器\MyFilter\Foundation\bin\Debug\Foundation.dll
+F:\过滤器\MyFilter\Foundation\bin\Debug\Foundation.pdb
+F:\过滤器\MyFilter\Foundation\obj\Debug\Foundation.csprojResolveAssemblyReference.cache
+F:\过滤器\MyFilter\Foundation\obj\Debug\Foundation.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Foundation.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Foundation.pdb
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.csprojResolveAssemblyReference.cache
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.pdb

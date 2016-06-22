@@ -7,12 +7,17 @@ using System.Reflection;
 using System.Net;
 using NHibernate;
 using NHibernate.Cfg;
+using Foundation;
+using System.Collections;
+using System.IO;
 namespace myconsole
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+         
             #region   反射类
             ////  反射类
             //Type t = typeof(MyClass);
@@ -54,11 +59,176 @@ namespace myconsole
             //Console.Write(html); 
             #endregion
 
-            Configuration cfg = new Configuration();
-            cfg.Configure();
+            //Configuration cfg = new Configuration();
+            //cfg.Configure();
+
+            TrunAbstract myclass = new TrunAbstract();
+
+            #region   迭代器
+            int[] myarray = { 10,1, 2, 3, 4 };
+            IEnumerator myie = myarray.GetEnumerator();
+            
+            myarray[4] = 20;
+            myie.Reset();
+            while (myie.MoveNext())
+            {
+                int tempint = (int)myie.Current;
+              
+               //Console.WriteLine(tempint);
+            }
+
+            #endregion
+
+            #region 多继承接口
+            //   XianshiClass xianshi = new XianshiClass();
+            //   IMyinterface Myinterface = new XianshiClass();
+            //    // 全类目实现的接口 只能用借口来调用的
+
+
+            //   Base baseclass = new Base();
+            //   Console.WriteLine(" Base :");
+            //   baseclass.ShowNum();
+
+            //   IMoreInter morebase = new Base();
+            // //  Console.WriteLine(" IMoreInter-base :");
+            //   morebase.ShowNum();
+            //   morebase.ShowStr();
+
+            //   SonClass son = new SonClass();
+
+            //  // Console.WriteLine(" SonClass :");
+            //   son.ShowNum();
+            //   IMoreInter more = new SonClass();
+
+            ////   Console.WriteLine(" IMoreInter-SonClass :");
+            //   more.ShowNum();
+            //   more.ShowStr();
+
+
+            //   TclassInter tclass = new TclassInter(520);
+            //       Console.WriteLine("TclassInter:");
+            //   tclass.ShowNum();
+
+            //   tclass.ShowStr();
+            //   ITest20 It20 = tclass as ITest20;
+            //   Console.WriteLine("ITest20:");
+            //   It20.ShowNum();
+            //   It20.ShowStr();
+            //   Console.WriteLine("ITest22:");
+            //   ITest22 I222 = tclass as ITest22;
+            //   I222.ShowNum();
+
+            #endregion
+
+
+            #region  继承 类的
+            //TclassSon son = new TclassSon();
+            //son.SayHi();
+
+            //Tclassbase father = new Tclassbase();
+            //father.SayHi();
+            //father = son as TclassSon;
+            //father.SayHi();
+
+            //D3sonClass d3son = new D3sonClass();
+            //d3son.ShowNum1();
+            //d3son.ShowNum2();
+
+            //Console.WriteLine("_______________________");
+            //D3class d3base = new D3sonClass();
+            //d3base.ShowNum1();
+            //d3base.ShowNum2();
+
+            //Console.WriteLine("_______________________");
+
+            //D3class d3 = new D3class();
+            //d3.ShowNum1();
+            //d3.ShowNum2(); 
+            #endregion
+
+
+            #region  联系 反射 
+
+            //  Type classType = typeof(fanshe);
+
+            //  fanshe shiti = new fanshe();
+
+            // MethodInfo  method=classType.GetMethod("ShowNum",new Type[] { });
+            //  method.Invoke(shiti,null);
+            //   method = classType.GetMethod("ShowNum", new Type[] { typeof(string) });
+            //  method.Invoke(shiti, new object[] { "2"});
+
+            //  method = classType.GetMethod("ReturnNum", new Type[] { typeof(int) });
+            //int num = (int)method.Invoke(shiti, new object[] { 2 });   // 这种情况 效率一定 低 因为要拆箱
+            //  #endregion
+
+            //  #region IO的一些操作
+            //  DirectoryInfo dir = Directory.CreateDirectory("D://test.text");
+            //  foreach (string  item in Directory.GetFileSystemEntries("D://test.text"))
+            //  {
+            //      if (File.Exists(item))
+            //      {
+            //         // File.Delete(item);
+            //      }
+            //      else
+            //      {
+
+            //      }
+            //  }
+
+            //  string[] names = Directory.GetFiles("D://test.text");
+            //  string[] names3 = Directory.GetFileSystemEntries("D://test.text");
+
+            //  foreach (string item in names)
+            //  {
+            //      if (File.Exists(item))
+            //      {
+
+            //          using (StreamWriter  sw=File.CreateText(item))
+            //          {
+            //              sw.WriteLine(" 你是个大傻逼");
+            //              sw.WriteLine(" 你是个大傻逼ff");
+            //          }
+            //      }
+
+            //      if (File.Exists(item))
+            //      {
+            //          using (StreamReader sr=File.OpenText(item))
+            //          {
+            //              sr.Read();
+            //          }
+
+            //      }
+            //  }
+            #endregion
+
+
+            Father sontofather = new son();
+           var tt=   sontofather.num;
+        sontofather.ShowNum();
+            sontofather.ShowStr();
 
             Console.ReadKey();
 
+        }
+
+        public  class fanshe
+        {
+
+            public void ShowNum()
+            {
+              //  Console.WriteLine("这是没有参数的方法");
+            }
+
+            public void ShowNum(string num)
+            {
+               // Console.WriteLine(" 这个是带参数的方法 参数值=" + num.ToString());
+            }
+
+            public   int ReturnNum(int num)
+            {
+                return num;
+            }
         }
 
 #region    反射类的
