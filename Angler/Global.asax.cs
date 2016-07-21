@@ -13,6 +13,24 @@ namespace Angler
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            IControllerFactory cfactory=   ControllerBuilder.Current.GetControllerFactory();
+
+             // ViewEngines   视图引擎
+             //MvcHandler 
+
+
         }
+
+
+        // public void Application_BeginRequest(object sender, EventArgs e)
+        //{
+         
+        //}
+
+        //public void Application_EndRequest()
+        //{
+            
+        //}
+
     }
 }

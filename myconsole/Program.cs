@@ -205,7 +205,7 @@ namespace myconsole
 
             Father sontofather = new son();
            var tt=   sontofather.num;
-        sontofather.ShowNum();
+            sontofather.ShowNum();
             sontofather.ShowStr();
 
             Console.ReadKey();

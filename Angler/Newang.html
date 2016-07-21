@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    <script src="scripts/angular.js"></script>
+ 
+</head>
+<body   ng-controller="mycontroller">
+    <div  >
+        <input data-ng-model="MyNum"    ng-keydown="dd();"/>
+        <div data-ng-bind="MyNum"></div>
+    <input type="button" my-Dir  value="点击" content=" get  one " />
+
+        <input type="button" my-Dir value="点击" content=" hahh " />
+        <my-dir></my-dir>
+        <div ng-repeat="usre in $myFactory.users">
+            <span ng-bind="usre.id"></span>
+            <span ng-bind="usre.name"></span>
+            <span ng-bind="usre.age"></span>
+            <button  ng-click="shanchu()">删除</button>
+        </div>
+
+        <table>
+            <tr ng-repeat="usre in $myFactory.users">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.age}}</td>
+            </tr>
+        </table>
+        <input ng-model="newuser.id" />
+        <input ng-model="newuser.name" />
+        <input ng-model="newuser.age" />
+
+        <button ng-click="onupdate()"> 提交</button>
+
+    </div>
+    <script type="text/javascript">
+         var app = angular.module('myapp', []);
+         app.controller('mycontroller', ['$scope', '$myFactory', function ($scope, $myFactory) {
+             $scope.MyNum = 1;
+              $scope.$myFactory = $myFactory;
+
+           //  $scope.$myFactory = $myFactory;
+             $scope.newuser = {};
+             $myFactory.getList();
+             $scope.dd = function () {
+                 alert(123);
+             };
+        
+
+          
+
+           //   for (var i = 0; i < 5; i++) {
+               //   var user = { "id": i+1, "name": "name" + (i+1), "age": 20 + i };
+                //  $scope.users.push(user);
+            //  }
+           
+              $scope.onupdate=function()
+              {
+                  $myFactory.up(angular.copy($scope.newuser));
+              }
+              $scope.shanchu = function () {
+                
+                  $scope.users.unshift();
+              }
+
+          }]);
+
+         app.factory("$myFactory", ['$rootScope', function ($rootScope) {
+             // factory  返回一个对象
+             var _this = {};
+          
+              _this.users = [];
+              _this.getList = function () {
+                  for (var i = 0; i < 5; i++) {
+                      var user = { "id": i + 1, "name": "name" + (i + 1), "age": 20 + i };
+                      _this.users.push(user);
+                  }
+              }
+
+              _this.up = function (user) {
+                  _this.users.push(user);
+              }
+              return _this;
+          }]);
+
+        app.directive('helloWorld', function() {
+        return {
+ restrict: 'E',
+ template: '<div>Hi 我是林炳文~~~</div>',
+ replace: true
+ };
+});
+        app.directive('myDir', ['$rootScope', '$myFactory', function ($rootScope, $myFactory) {
+
+            // 命令也是返回一个对象 restrict   针对的对象  好多对象
+            var div = $("<div>");
+            div.css({ 'position': 'fixed', 'left': '400px', 'border': '1px solid red', 'background-color': 'blue', 'z-index': '99', 'width': '100px', 'height': '80px', 'display': 'none' });
+            $('body').append(div);
+            div.click(function () {
+                div.hide();
+            });
+            console.log("A");
+        return {
+         restrict:"A",
+         link: function (scope, elem, attr) {
+             elem.on('click', function () {
+                 scope.MyNum = parseInt(scope.MyNum) + 2;
+                  console.log("B");
+                 div.html(attr.content);
+                 div.css("left", div.css("left")+25);
+                 div.show();
+                 console.log($myFactory.users);
+             });
+         }
+        }
+        }]);
+
+    
+
+    </script>
+
+</body>
+
+</html>

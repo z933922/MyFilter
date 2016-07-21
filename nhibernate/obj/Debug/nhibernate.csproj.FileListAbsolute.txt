@@ -1,0 +1,10 @@
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\nhibernate.exe.config
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\nhibernate.exe
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\nhibernate.pdb
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\Iesi.Collections.dll
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\NHibernate.dll
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\Iesi.Collections.xml
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\bin\Debug\NHibernate.xml
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\obj\Debug\nhibernate.csprojResolveAssemblyReference.cache
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\obj\Debug\nhibernate.exe
+G:\代码\自己练习\MyFilter\MyFilter\nhibernate\obj\Debug\nhibernate.pdb

@@ -13,5 +13,13 @@ namespace Angler.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult myindex()
+        {
+
+           
+            return View();
+        }
     }
 }

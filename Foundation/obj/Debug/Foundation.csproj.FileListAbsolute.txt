@@ -8,3 +8,8 @@ G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Foundation.pdb
 G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.csprojResolveAssemblyReference.cache
 G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.dll
 G:\代码\自己练习\MyFilter\MyFilter\Foundation\obj\Debug\Foundation.pdb
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Microsoft.Practices.Unity.Tracking.dll
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\代码\自己练习\MyFilter\MyFilter\Foundation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
