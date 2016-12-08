@@ -10,6 +10,12 @@ using NHibernate.Cfg;
 using Foundation;
 using System.Collections;
 using System.IO;
+using Spring.Context;
+using Spring.Context.Support;
+using Spring.Core.IO;
+using Spring.Objects.Factory;
+using Spring.Objects.Factory.Xml;
+
 namespace myconsole
 {
     class Program
@@ -208,11 +214,82 @@ namespace myconsole
             sontofather.ShowNum();
             sontofather.ShowStr();
 
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            int r1 = 0;
+            int r2 = 100;
+
+            int tempt = 0;
+            IList<Func<int>> funcs = new List<Func<int>>();
+            funcs.Add(() => { return (tempt + 1); });
+            funcs.Add(() => { return (tempt -2); });
+
+            foreach (var f in funcs)
+            {
+                int tint = f();
+                Console.WriteLine(" 此时此刻的 的返回值："+tint.ToString());
+            }
+
+            var attems = AppDomain.CurrentDomain.GetAssemblies();
+            //foreach (Assembly item in attems)
+            //{
+            //    foreach (Type type in item.GetTypes())
+            //    {
+            //        foreach (MemberInfo infor in type.GetMembers())
+            //        {
+            //            //Console.WriteLine("名称： {0}，Type：{1}",infor.Name,infor.MemberType.ToString());
+            //        }
+            //    }
+            //}
+
+
+            string second = new string('T', 5);
+
+            var Tl = Toss<string>("你是个大傻逼");
+
+
+             int i = 100;
+            object o = i;
+            i = 200;
+            int i1 = (int)o;
+
+
+            #region 联系spring.net
+
+            IResource input = new FileSystemResource("Objects.xml");  //路径----这里使用的是相对路径，也可以使用绝对路径，如果路径错了会报异常
+
+            IObjectFactory factory = new XmlObjectFactory(input);
+            IService person = factory.GetObject("EFUserInfoDal") as EFUserInfoDal;
+
+            IApplicationContext ctx = ContextRegistry.GetContext();
+             IService service = ctx.GetObject("EFUserInfoDal") as EFUserInfoDal;
+
+            //No context registered.Use the 'RegisterContext' method or the 'spring/context' section from your configuration file.
+           service.Show();
+
+
+            #endregion
+
+
+
             Console.ReadKey();
 
         }
 
-        public  class fanshe
+        public static string ToStr<T>(List<T> @object, char differentiate = '=', char separator = '&')
+             where T : new()
+         {
+            return "str";
+          }
+
+
+        public static T Toss<T>(T tempt)  
+        {
+            T rr = default(T);
+
+            return rr;
+        }
+    public  class fanshe
         {
 
             public void ShowNum()

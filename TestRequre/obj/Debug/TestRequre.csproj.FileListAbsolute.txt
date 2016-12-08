@@ -99,3 +99,7 @@ G:\代码\自己练习\MyFilter\MyFilter\TestRequre\bin\zh-Hans\Microsoft.Owin.S
 G:\代码\自己练习\MyFilter\MyFilter\TestRequre\obj\Debug\TestRequre.csprojResolveAssemblyReference.cache
 G:\代码\自己练习\MyFilter\MyFilter\TestRequre\obj\Debug\TestRequre.dll
 G:\代码\自己练习\MyFilter\MyFilter\TestRequre\obj\Debug\TestRequre.pdb
+G:\代码\自己练习\MyFilter\MyFilter\TestRequre\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\代码\自己练习\MyFilter\MyFilter\TestRequre\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\代码\自己练习\MyFilter\MyFilter\TestRequre\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\代码\自己练习\MyFilter\MyFilter\TestRequre\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml

@@ -20,6 +20,7 @@ namespace EFcode
         {
             modelBuilder.Configurations.Add(new BlogMap());
             modelBuilder.Configurations.Add(new PeopleMap());
+            //AutoMapper
             base.OnModelCreating(modelBuilder);
         }
     }

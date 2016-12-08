@@ -50,3 +50,7 @@ G:\代码\自己练习\MyFilter\MyFilter\Angler\bin\zh-Hans\System.Web.Mvc.resou
 G:\代码\自己练习\MyFilter\MyFilter\Angler\obj\Debug\Angler.csprojResolveAssemblyReference.cache
 G:\代码\自己练习\MyFilter\MyFilter\Angler\obj\Debug\Angler.dll
 G:\代码\自己练习\MyFilter\MyFilter\Angler\obj\Debug\Angler.pdb
+G:\代码\自己练习\MyFilter\MyFilter\Angler\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\代码\自己练习\MyFilter\MyFilter\Angler\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\代码\自己练习\MyFilter\MyFilter\Angler\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\代码\自己练习\MyFilter\MyFilter\Angler\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml

@@ -1,0 +1,6 @@
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\bin\Debug\TFanXing.exe.config
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\bin\Debug\TFanXing.exe
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\bin\Debug\TFanXing.pdb
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\obj\Debug\TFanXing.csprojResolveAssemblyReference.cache
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\obj\Debug\TFanXing.exe
+G:\代码\自己练习\MyFilter\MyFilter\TFanXing\obj\Debug\TFanXing.pdb

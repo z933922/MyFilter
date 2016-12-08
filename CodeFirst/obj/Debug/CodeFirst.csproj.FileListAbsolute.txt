@@ -1,0 +1,14 @@
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\CodeFirst.dll.config
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\CodeFirst.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\CodeFirst.pdb
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\EntityFramework.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\EntityFramework.xml
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\obj\Debug\CodeFirst.dll
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\obj\Debug\CodeFirst.pdb
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\obj\Debug\CodeFirst.Migrations.zhbmi.resources
+G:\代码\自己练习\MyFilter\MyFilter\CodeFirst\obj\Debug\CodeFirst.csproj.GenerateResource.Cache

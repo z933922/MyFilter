@@ -7,3 +7,10 @@ F:\过滤器\MyFilter\multithreadin\obj\Debug\multithreadin.pdb
 G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\multithreadin.exe.config
 G:\代码\自己练习\MyFilter\MyFilter\multithreadin\obj\Debug\multithreadin.exe
 G:\代码\自己练习\MyFilter\MyFilter\multithreadin\obj\Debug\multithreadin.pdb
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\multithreadin.exe
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\multithreadin.pdb
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+G:\代码\自己练习\MyFilter\MyFilter\multithreadin\obj\Debug\multithreadin.csprojResolveAssemblyReference.cache

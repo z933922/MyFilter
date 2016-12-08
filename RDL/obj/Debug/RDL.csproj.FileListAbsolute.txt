@@ -1,0 +1,5 @@
+G:\代码\自己练习\MyFilter\MyFilter\RDL\bin\Debug\RDL.dll
+G:\代码\自己练习\MyFilter\MyFilter\RDL\bin\Debug\RDL.pdb
+G:\代码\自己练习\MyFilter\MyFilter\RDL\obj\Debug\RDL.dll
+G:\代码\自己练习\MyFilter\MyFilter\RDL\obj\Debug\RDL.pdb
+G:\代码\自己练习\MyFilter\MyFilter\RDL\obj\Debug\RDL.csprojResolveAssemblyReference.cache

@@ -12,7 +12,7 @@ namespace multithreadin
         static void Main(string[] args)
         {
             Thread t1 = new Thread(new ThreadStart(TestMethod));// 定义一个多线程
-           // t1.Start();
+           t1.Start();
            
 
             Action weituoAction = () => { Console.WriteLine("这个是不带菜蔬的委托"); }; // 定义一个委托
@@ -43,15 +43,29 @@ namespace multithreadin
             t2.Start("哈哈");
             t2.Start();
 
-             
+            // 测试若引用的
+            Wrclass wr = new Wrclass();
+            WeakReference wrc = new WeakReference(wr);
+            if (wrc.IsAlive)
+            {
+                wr = wrc.Target as Wrclass;
+            }
 
+            // 线程池 threadpool
+            Program p = new Program();
+           
+            // 静态类只能有静态的方法 非静态类 可以有静态的 和非静态的方法 基础
+            cc ncc = new cc();
+           
 
+            ThreadPool.QueueUserWorkItem(new WaitCallback(ncc.xxx1),"adsfa");
             Console.ReadKey();
 
         }
 
         public static void TestMethod()
         {
+          
             Console.WriteLine("不带参数的线程函数");
         }
 
@@ -60,5 +74,22 @@ namespace multithreadin
             Console.WriteLine("带有参数的线程方法：参数--"+str);
 
         }
+
+        public class cc
+        {
+
+            public void xxx1(object stateinfo)
+            {
+            }
+        }
+
+        /// <summary>
+        ///  测试若引用的
+        /// </summary>
+        public class Wrclass
+        {
+        }
+
+
     }
 }

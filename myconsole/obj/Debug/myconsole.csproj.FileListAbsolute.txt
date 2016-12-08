@@ -26,3 +26,13 @@ G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Microsoft.Practices
 G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
 G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.Core.dll
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.dll
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Spring.Core.dll
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Spring.Net.dll
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.pdb
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.xml
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.Core.pdb
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Common.Logging.Core.xml
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Spring.Core.pdb
+G:\代码\自己练习\MyFilter\MyFilter\myconsole\bin\Debug\Spring.Core.xml

@@ -4,10 +4,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebAPi;
+using AutoMapper;
 
 namespace WebAPi.Controllers
 {
-    public class MyController1 : ApiController
+    public class MyController : ApiController
     {
         // GET api/<controller>
         public IEnumerable<string> Get()
@@ -16,8 +18,20 @@ namespace WebAPi.Controllers
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public string Test(int id=0)
         {
+            Student stumodel = new Student() { id = 1, name = "我是你大爷" };
+
+
+            var calendarEvent = new CalendarEvent
+            {
+                EventDate = new DateTime(2008, 12, 15, 20, 30, 0),
+                Title = "Company Holiday Party"
+            };
+            CalendarEventForm form = Mapper.Map<CalendarEvent, CalendarEventForm>(calendarEvent);
+
+
+
             return "value";
         }
 

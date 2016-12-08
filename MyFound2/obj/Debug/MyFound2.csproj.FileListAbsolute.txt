@@ -1,0 +1,16 @@
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\MyFound2.exe.config
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\MyFound2.exe
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\MyFound2.pdb
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\obj\Debug\MyFound2.csprojResolveAssemblyReference.cache
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\obj\Debug\MyFound2.exe
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\obj\Debug\MyFound2.pdb
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\RDL.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\RDL.pdb
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\EntityFramework.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\EntityFramework.SqlServer.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\EntityFramework.xml
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\EntityFramework.SqlServer.xml
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\CodeFirst.dll
+G:\代码\自己练习\MyFilter\MyFilter\MyFound2\bin\Debug\CodeFirst.pdb
