@@ -89,6 +89,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HTMLPage1.html" />
+    <Content Include="jquery-1.10.2.js" />
+    <Content Include="layer.css" />
+    <Content Include="layer.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\skin\default\icon-ext.png" />
+    <Content Include="layer\skin\default\icon.png" />
+    <Content Include="layer\skin\default\layer.css" />
+    <Content Include="layer\skin\default\loading-0.gif" />
+    <Content Include="layer\skin\default\loading-1.gif" />
+    <Content Include="layer\skin\default\loading-2.gif" />
     <Content Include="Objects.xml">
       <SubType>Designer</SubType>
     </Content>
